@@ -5,6 +5,8 @@ from sqli import views
 
 DIR_PATH = dirname(realpath(__file__))
 
+PAT = "OetvA1cMmaaiQ8EcvzBMXL6FKQPakIO8lPMByS5OqF3q0bDhh9oGrcuECI3CG0eT"
+
 
 def setup_routes(app: Application):
     app.router.add_route('GET', r'/', views.index)
